@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT</title>
+    <style>
+        .container {
+
+            /* height: 100vh; */
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 4fr 3fr 4fr 2fr 2fr 1fr;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+        }
+        /* contact */
+        .contactdetail{
+            display: flex;
+            gap: 10px;
+
+        }
+        .contactdetail input{
+            width: 300px;
+            padding: 6px;
+            border: 1px solid rgb(92, 89, 89);
+            border-radius: 8px;
+            outline: none;
+        }
+        .contactdetail input:focus{
+            border: 1px solid blue;
+        }
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- header section  -->
+        <div class="header" style="background-color: #e9edc9; display: flex; justify-content: space-between; 
+        padding: 0px 20px;">
+
+            <div class="logo" style="display: flex; justify-content: center;">
+                <img src="Sophisticated NMB Logo Designs.png" alt=" my-logo" width="80px" height="80px">
+                <h1> Naddumba Best Martha</h1>
+            </div>
+
+            <div class="nav" style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+                <a href="#about">about</a>
+                <a href="#contact">contact</a>
+                <a href="#projects">projects</a>
+            </div>
+
+            <div class="resume" style="display: flex; justify-content: center;align-items: center; ">
+                resume</div>
+
+        </div>
+        <!-- hero section -->
+        <div class="hero"
+            style="display: flex;justify-content: center; align-items: center; gap: 20px; 
+            background: linear-gradient(to right, #29350128, #e9edc915); background-color: #fefae0;">
+
+            <div class="hero-photo">
+                <img src="6d797ae9-28b0-43df-8c2e-4a1d010b36a8.jpg" alt="profile" width="180px" height="150px">
+
+            </div>
+
+            <div class="hero-description">
+                <h2> Web developer</h2>
+                <p> Turning my senior-six side hustle into webpages.</p>
+                <p> Hello, this is Best.</p>
+            </div>
+        </div>
+
+
+        <!-- experience section -->
+        <div class="experience" style="background:linear-gradient(to bottom, rgba(255, 0, 0, 0.158), rgb(220, 233, 220));">
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <h3>Experience</h3>
+                <p>Web Dev Student at Witu
+                    feb 2026 - present</p>
+            </div>
+
+
+        </div>
+        <!-- projects -->
+
+        <div class="projects"
+            style="display: flex;justify-content: center;align-items: center;gap: 20px; flex-direction: column;">
+            <h3> Projects</h3>
+            <div class="projects-container"
+                style="display: flex;justify-content: center;align-items: center;gap: 20px; margin-bottom: 20px;">
+                <!-- project-1 -->
+                <div class="project-1" style="border: 2px solid black; border-radius: 20px;padding: 10px;">
+                    <h4>my portfolio website</h4>
+                    <p>
+                        porfolio website to showcase my skilss using HTML and CSS
+                    </p>
+                </div>
+                <!-- project-2 -->
+                <div class="project-2" style="border: 2px solid black; border-radius: 20px;padding: 10px;">
+                    <h4>Delicious bites website</h4>
+                    <p>
+                        porfolio website to showcase my skilss using HTML and CSS
+                    </p>
+                </div>
+                <!-- project-3 -->
+                <div class="project-3" style="border: 2px solid black; border-radius: 20px;padding: 10px;">
+                    <h4>profile page website</h4>
+                    <p>
+                        porfolio website to showcase my skilss using HTML and CSS
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- skills -->
+        <div class="skills">
+            <!-- skills i have -->
+            <h3> Skills</h3>
+            <div class="skills-container">
+                <div class="skill1">
+                    <p> Html and CSS</p>
+                </div>
+                <div class="skill2">
+                    <P> Django and PHP</P>
+                </div>
+            </div>
+        </div>
+        <div class="contact" style="display: flex; justify-items: center; align-items: center;flex-direction: column; gap: 10px;">
+           
+            <!-- contact details -->
+            <h3>Contact infomation</h3>
+            <div class="contactdetail name">
+                <label for="name">Name</label>
+                <input type="text" id="name"> 
+            </div>
+
+            <div class="contactdetail email-container" >
+                <label for="email">Email:</label>
+                <input type="text" id="email"> 
+               
+            </div>
+
+            <div class="message">
+                <label> message <input type="message" message=" how are you" required></label>
+            </div>
+        </div>
+        <div class="footer" style="background-color: #2935012a;">
+            <footer>
+                <p>&copy; Best Naddumba Web Developer Portfolio. All rights reserved</p>
+            </footer>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(243, 243, 198);
+  border: 10px;
+  padding: 30px;
+}
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  border: 10px;
+  border-color: black;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+  text-shadow: 10px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  
+}
