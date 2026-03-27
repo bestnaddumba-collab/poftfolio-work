@@ -1,7 +1,8 @@
 body {
-  background-color: rgb(243, 243, 198);
+  background-color: #03045e;
   border: 10px;
   padding: 30px;
+  color: antiquewhite;
 }
 .skill-container {
   display: flex;
@@ -14,20 +15,15 @@ body {
   align-items: center;
   flex-direction: column;
   border: 10px;
-  border-color: black;
-}
-.footer {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  text-decoration: none;
-  text-shadow: 10px;
-}
+  background-color:#00b4d8;
+};
+
 .nav {
   display: flex;
   justify-content: center;
   gap: 10px;
   text-decoration: none;
+  color: brown;
 }
 .container {
   /* height: 100vh; */
@@ -42,7 +38,7 @@ body {
 /* contact */
 .contactdetail {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .contactdetail input {
@@ -56,8 +52,29 @@ body {
 .contactdetail input:focus {
   border: 1px solid blue;
 }
-.day{
-  font-weight: 800px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: larger;
+.day {
+  font-weight: bolder;
+  color: blue;
+  font-display: block;
+  text-shadow: 10%;
+}
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;10px;
+  background-color:#0077b6;
+  height:300px;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+}
+.social-links{
+  display: flex;flex-direction: column;
+  text-decoration: none;
 }
