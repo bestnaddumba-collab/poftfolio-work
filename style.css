@@ -25,6 +25,11 @@ body {
   text-decoration: none;
   color: brown;
 }
+.nav a{
+  font-display: auto;
+  color: antiquewhite;
+  text-decoration: none;
+}
 .container {
   /* height: 100vh; */
   display: grid;
@@ -77,4 +82,9 @@ footer{
 .social-links{
   display: flex;flex-direction: column;
   text-decoration: none;
+}
+.herodescription{
+  color: #03045e;
+  padding: 10px;
+  margin: auto;
 }
